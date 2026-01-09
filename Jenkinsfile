@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-repo.git',
+                    url: 'https://github.com/srinivasan1516/jenkins-advancedautomation.git',
                     credentialsId: 'github-creds'
             }
         }
@@ -56,3 +56,4 @@ pipeline {
         }
     }
 }
+
